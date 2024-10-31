@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #c7f9cc;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header i {
+    font-size: 30px;
+}
+
+/* styling for ai integreted */
+
+.header h1 {
+    color: #34a0a4;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.container h2 {
+    text-align: center;
+    color: #184e77;
+    margin-top: 1rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    width: 100%;
+}
+
+.imgCont {
+    height: 650px;
+    width: 40%;
+    /* background-color: #57cc99; */
+    background: linear-gradient(#57cc99, #38a3a5);
+    border-radius: 10px;
+    margin-top: 2rem;
+    margin-right: 1rem;
+}
+
+.imgCard {
+    text-align: center;
+}
+
+.imgCard img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    margin-top: 2rem;
+}
+
+.buttonCard {
+    margin-top: 2rem;
+}
+
+.buttonCard input {
+    display: none;
+}
+
+label {
+    display: block;
+    width: 200px;
+    background: #22577a;
+    color: whitesmoke;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 208px;
+    text-align: center;
+}
+
+label:hover {
+    background-color: beige;
+    color: black;
+}
+
+.analyzeImg {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.analyzeImg button {
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: beige;
+}
+
+.analyzeImg button:hover {
+    background-color: #22577a;
+    color: whitesmoke;
+}
+
+.resultCard {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.resultCard p {
+    font-size: 25px;
+}
+
+.resultCard #result {
+    font-size: 35px;
+    color: beige;
+    font-weight: 900;
+}
+
+/* styling for data visualzation */
+
+.dvCont {
+    height: 650px;
+    width: 40%;
+    /* background-color: #57cc99; */
+    background: linear-gradient(#57cc99, #38a3a5);
+    border-radius: 10px;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    text-align: center;
+}
+
+.search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.search input {
+    border: 0;
+    outline: 0;
+    background: beige;
+    color: black;
+    padding: 5px 15px;
+    height: 40px;
+    border-radius: 30px;
+    flex: 1;
+    margin-left: 182px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.search input:hover {
+    background-color: #22577a;
+    color: whitesmoke;
+}
+
+.search button {
+    border: 0;
+    outline: 0;
+    background: beige;
+    padding: 5px 15px;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.search button:hover {
+    background-color: #22577a;
+    color: whitesmoke;
+}
+
+.search button i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.weather i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8rem;
+    margin-top: 2rem;
+    color: #22577a;
+}
+
+.weather i:hover {
+    color: yellow;
+}
+
+.weather h3 {
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 2rem;
+    color: beige;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+
+.humidity-icon i {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    font-size: 4rem;
+    color: blue;
+}
+
+.humidity-icon i:hover {
+    color: beige;
+}
+
+.wind-icon i {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    font-size: 4rem;
+    color: rgb(53, 50, 50);
+}
+
+.wind-icon i:hover {
+    color: red;
+}
+.humidity {
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 1rem;
+    margin-left: 12px;
+}
+
+.wind {
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 1rem;
+    margin-right: 14px;
+}
+
+#humidity {
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 1rem;
+    margin-left: 1em;
+}
+
+#wind {
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
